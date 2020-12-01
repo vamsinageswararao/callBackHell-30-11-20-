@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        html {
+            display: table;
+            margin: auto;
+            font-size: 40px;
+            background-color:cornflowerblue
+        }
+
+        body {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        setTimeout(function () {
+            document.body.innerHTML = 10
+            setTimeout(function () {
+                document.body.innerHTML = 9
+                setTimeout(function () {
+                    document.body.innerHTML = 8
+                    setTimeout(function () {
+                        document.body.innerHTML = 7
+                        setTimeout(function () {
+                            document.body.innerHTML = 6
+                            setTimeout(function () {
+                                document.body.innerHTML = 5
+                                setTimeout(function () {
+                                    document.body.innerHTML = 4
+                                    setTimeout(function () {
+                                        document.body.innerHTML = 3
+                                        setTimeout(function () {
+                                            document.body.innerHTML = 2
+                                            setTimeout(function () {
+                                                document.body.innerHTML = 1
+                                                setTimeout(function () {
+                                                    document.body.innerHTML = "Happy Birthday"
+                                                }, 1000)
+                                            }, 1000)
+                                        }, 1000)
+                                    }, 1000)
+                                }, 1000)
+                            }, 1000)
+                        }, 1000)
+                    }, 1000)
+                }, 1000)
+            }, 1000)
+        }, 1000)
+    </script>
+</body>
+
+</html>
